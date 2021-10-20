@@ -1,11 +1,11 @@
 .hoved {
   background: url("images/mndselger.svg") no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 body {
   margin: 0px;
-  max-width: 3000px;
 }
 
 img {
