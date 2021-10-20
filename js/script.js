@@ -12,5 +12,3 @@ btn2.addEventListener("click",()=>{
       document.exitFullscreen()
     }
   })
-
-  

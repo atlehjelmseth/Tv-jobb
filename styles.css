@@ -1,7 +1,8 @@
 body {
   margin: 0px;
-  background: url("images/mndselger2.svg") no-repeat;
+  background: url("images/mndselger3.svg") no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 img {
@@ -13,13 +14,27 @@ button {
   color: darkslategrey;
 }
 
+.trondheim-overskrift {
+  display: flex;
+  height: 50px;
+  background-color: black;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #e8ba4d;
+  height: 200px;
+  width: 100%;
+}
 .trondheim {
   display: flex;
   flex: 1;
   flex-direction: row;
   position: relative;
   min-width: 100%;
-  padding-top: 270px;
+  padding-top: 10px;
   margin-right: 100px;
 }
 
@@ -29,7 +44,7 @@ button {
   flex-direction: row;
   position: relative;
   min-width: 100%;
-  padding-top: 270px;
+  padding-top: 10px;
   margin-right: 100px;
 }
 
