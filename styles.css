@@ -2,8 +2,6 @@ body {
   margin: 0px;
   background: url("images/mndselger2.svg") no-repeat;
   background-size: cover;
-  width: 3840px;
-  height: 2160px;
 }
 
 img {
@@ -23,7 +21,6 @@ button {
   min-width: 100%;
   padding-top: 270px;
   margin-right: 100px;
-  max-width: 3535px;
 }
 
 .oslo {
@@ -34,7 +31,6 @@ button {
   min-width: 100%;
   padding-top: 270px;
   margin-right: 100px;
-  max-width: 3535px;
 }
 
 .box {
