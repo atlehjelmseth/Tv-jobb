@@ -1,7 +1,6 @@
 .hoved {
-  background: url("images/mndselger.png") no-repeat;
+  background: url("images/mndselgerv2.png") no-repeat;
   background-size: cover;
-  min-height: 100vh;
 }
 
 body {
