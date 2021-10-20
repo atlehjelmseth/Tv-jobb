@@ -1,12 +1,44 @@
 .hoved {
-  background: url("images/mndselgerv2.png") no-repeat;
+  background: url("images/mndselger.svg") no-repeat;
   background-size: cover;
 }
 
 body {
   margin: 0px;
 }
+
+img {
+  width: 100%;
+}
+
 button {
   background: black;
   color: darkslategrey;
+}
+
+.trondheim {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+  min-width: 100%;
+  padding-top: 270px;
+  margin-right: 100px;
+  max-width: 3535px;
+}
+
+.oslo {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+  min-width: 100%;
+  padding-top: 270px;
+  margin-right: 100px;
+  max-width: 3535px;
+}
+
+.box {
+  padding-left: 50px;
+  padding-right: 50px;
 }
