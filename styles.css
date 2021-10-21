@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "Copperplate";
+  src: url("fonts/Copperplate\ Gothic\ Bold.ttf") format("truetype");
+}
+
 body {
+  font-family: "Copperplate", serif;
   margin: 0px;
   background: url("images/mndselger3.svg") no-repeat;
   background-size: cover;
@@ -14,41 +20,65 @@ button {
   color: darkslategrey;
 }
 
-.trondheim-overskrift {
+.bakgrunn-over {
   display: flex;
-  height: 50px;
-  background-color: black;
+  height: 2.5vw;
+  width: 100%;
+  background: rgb(232, 186, 77, 0.3);
+}
+
+.bakgrunn-under {
+  height: 1.25vw;
+  background: rgb(232, 186, 77, 0.5);
   width: 100%;
 }
 
-h1 {
+.overskrift {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5vw;
   color: #e8ba4d;
   height: 200px;
   width: 100%;
+  text-shadow: 0.1vw 0.1vw #000000;
+}
+
+.mnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.mnd-text {
+  font-size: 1vw;
+  color: #e8ba4d;
 }
 .trondheim {
   display: flex;
-  flex: 1;
   flex-direction: row;
   position: relative;
-  min-width: 100%;
-  padding-top: 10px;
-  margin-right: 100px;
+  padding: 10px 120px;
 }
 
 .oslo {
   display: flex;
-  flex: 1;
   flex-direction: row;
   position: relative;
-  min-width: 100%;
   padding-top: 10px;
-  margin-right: 100px;
 }
 
 .box {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 10px 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(232, 186, 77, 0.5);
+  width: 100%;
+}
+
+.logo {
+  max-width: 100px;
 }
