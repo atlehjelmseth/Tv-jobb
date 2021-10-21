@@ -25,6 +25,8 @@ button {
   height: 2.5vw;
   width: 100%;
   background: rgb(232, 186, 77, 0.3);
+  text-align: center;
+  vertical-align: center;
 }
 
 .bakgrunn-under {
@@ -34,7 +36,6 @@ button {
 }
 
 .overskrift {
-  text-align: center;
   font-size: 1.5vw;
   color: #e8ba4d;
   height: 200px;
