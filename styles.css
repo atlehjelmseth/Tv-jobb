@@ -6,7 +6,7 @@
 body {
   font-family: "Copperplate", serif;
   margin: 0px;
-  background: url("images/mndselger3.svg");
+  background: url("images/mndselger3.svg") no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
