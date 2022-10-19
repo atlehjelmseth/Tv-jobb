@@ -2,7 +2,7 @@ const images = ["images/tvbilde1.png","images/tvbilde2.png","images/tvbilde3.png
 const carousel = document.querySelector(".header");
 const interval = setInterval(function() {
    startCarousel();
- }, 10000);
+ }, 30000);
 var index = 1;
 
 startCarousel = () => {
