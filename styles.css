@@ -35,7 +35,7 @@ section span {
 .header {
   text-align: center;
   height: calc(100vh);
-  max-width: 1920px;
+  width: 100%;
   background-image: url(../images/tvbilde1.png);
   background-size: cover;
   background-repeat:no-repeat;
