@@ -11,10 +11,16 @@ btn1.addEventListener("click",()=>{
   }
 })
 
-btn2.addEventListener("click",()=>{
-    if (document.exitFullscreen) {
-      document.exitFullscreen()
-    }
-  })
+// btn2.addEventListener("click",()=>{
+//     if (document.exitFullscreen) {
+//       document.exitFullscreen()
+//     }
+//   })
 
-  
+window.addEventListener('resize', (evt) => { 
+  if (window.innerHeight == screen.height) {
+    section.style.display = "flex";
+    console.log("flex")
+    window.location.reload();
+  } 
+});

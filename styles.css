@@ -23,7 +23,13 @@ button {
 
 section {
   background-color: black;
-  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+section span {
+  color: #e8ba4d;
+  padding-left: 20px;
 }
 
 .header {
