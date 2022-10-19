@@ -22,6 +22,6 @@ window.addEventListener('resize', (evt) => {
     section.style.display = "none";
   } else {
     section.style.display = "flex";
-    window.location.reload();
+
 }
 });
