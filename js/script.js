@@ -17,11 +17,11 @@ btn1.addEventListener("click",()=>{
 //     }
 //   })
 
-window.addEventListener('resize', (evt) => { 
-  if (window.innerHeight == screen.height) {
-    section.style.display = "none";
-  } else {
-    section.style.display = "flex";
-
-}
-});
+// window.addEventListener('resize', (evt) => { 
+//   if (window.innerHeight == screen.height) {
+//     section.style.display = "none";
+//   } else {
+//     section.style.display = "flex";
+//     window.location.reload();
+// }
+// });
