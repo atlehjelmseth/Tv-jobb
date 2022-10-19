@@ -6,7 +6,6 @@
 body {
   font-family: "Copperplate", serif;
   margin: 0px;
-  background: url("images/mndselger3.svg") no-repeat;
   background-size: cover;
   width: 100%;
 }
@@ -16,61 +15,45 @@ img {
 }
 
 button {
-  background: black;
-  color: darkslategrey;
+  background:black;
+  color: lightgrey;
+  border: none;
+  z-index: 10;
 }
 
-.bakgrunn-over {
-  display: flex;
-  height: 2.5vw;
-  width: 100%;
-  background: rgb(232, 186, 77, 0.3);
+section {
+  background-color: black;
+  opacity: 1;
+}
+
+.header {
   text-align: center;
-}
-
-.bakgrunn-under {
-  height: 1.25vw;
-  background: rgb(232, 186, 77, 0.5);
+  height: calc(100vh);
   width: 100%;
-  max-width: 1680px;
-  position: relative;
-  align-self: center;
-  margin: auto;
+  background-image: url(../images/tvbilde1.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: absolute;
+
 }
 
-.overskrift {
-  font-size: 1.5vw;
-  color: #e8ba4d;
-  height: 200px;
-  width: 100%;
-  text-shadow: 0.1vw 0.1vw #000000;
+.fade {
+  -webkit-animation: 1.5s fade;
+  -webkit-animation-duration: 1.5s;
+  animation: 1.5s fade;
+  animation-duration: 1.5s;
 }
 
-.mnd {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
+@-webkit-keyframes fade {
+  from {opacity: 0.2}
+  to {opacity: 1}
 }
 
-.mnd-text {
-  font-size: 1vw;
-  color: #e8ba4d;
-}
-.trondheim {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  max-width: 1700px;
-  margin: auto;
+@keyframes fade {
+  from {opacity: 0.2}
+  to {opacity: 1}
 }
 
-.oslo {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  padding-top: 10px;
-}
 
 .box {
   padding: 10px;
